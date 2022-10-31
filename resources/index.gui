@@ -1,0 +1,10 @@
+<svg>
+  <rect id="background" />
+  <text id="errorLabel" x="10%" y="10%" class="errorLabel"></text>
+  <text id="timeLabel" x="15%" y="45%" class="timeLabel">00:00:00</text>
+
+  <use id="btn-record" href="#square-button-icon" y="$" fill="fb-red">
+    <set href="#text"  attributeName="text-buffer" to="Record" />
+    <set href="#image" attributeName="href" to="icons/icon-record.png" />
+  </use>
+</svg>

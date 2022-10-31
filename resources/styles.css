@@ -1,0 +1,37 @@
+.defaultText {
+  font-size: 32;
+  font-family: System-Regular;
+  font-weight: regular;
+  text-length: 32;
+}
+
+#background {
+  width: 100%;
+  height: 100%;
+  fill: #333030;
+}
+
+.timeLabel {
+  font-family: Seville-Book;
+  font-size: 60;
+  fill: #b4afb1;
+  text-length: 32;
+}
+
+.statusLabel {
+  font-family: Seville-Book;
+  font-size: 60;
+  fill: #478542;
+  text-length: 32;
+}
+
+#myButton #text {
+  text-buffer: "BUTTON";
+}
+
+.errorLabel{
+  font-family: Seville-Book;
+  font-size: 32;
+  fill: #8d0b0b;
+  text-length: 32;
+}
